@@ -1,0 +1,198 @@
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:id = "@+id/scene"
+    android:orientation = "vertical"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent">
+
+    <FrameLayout
+        android:id = "@+id/sky"
+        android:layout_width = "match_parent"
+        android:layout_height = "0dp"
+        android:layout_weight = "0.61"
+        android:background = "@color/blue_sky">
+    <FrameLayout
+        android:id = "@+id/sun"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id = "@+id/centerSun"
+            android:layout_width = "125dp"
+            android:layout_height = "125dp"
+            android:layout_gravity = "center"
+            android:src = "@drawable/sun" />
+        <FrameLayout
+            android:id = "@+id/rays"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+            <ImageView
+                android:id="@+id/ray1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="80dp"
+                android:src="@drawable/triangle"/>
+
+            <ImageView
+                android:id="@+id/ray2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="80dp"
+                android:rotation="90"
+                android:src="@drawable/triangle"/>
+
+            <ImageView
+                android:id="@+id/ray3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="80dp"
+                android:rotation="270"
+                android:src="@drawable/triangle"/>
+            <ImageView
+                android:id="@+id/ray4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:rotation="180"
+                android:src="@drawable/triangle"/>
+            <ImageView
+                android:id="@+id/ray5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="58dp"
+                android:layout_marginLeft="58dp"
+                android:rotation="45"
+                android:src="@drawable/triangle"/>
+            <ImageView
+                android:id="@+id/ray6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="58dp"
+                android:layout_marginLeft="58dp"
+                android:rotation="135"
+                android:src="@drawable/triangle"/>
+            <ImageView
+                android:id="@+id/ray7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="58dp"
+                android:layout_marginRight="58dp"
+                android:rotation="230"
+                android:src="@drawable/triangle"/>
+            <ImageView
+                android:id="@+id/ray8"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="58dp"
+                android:layout_marginRight="58dp"
+                android:rotation="315"
+                android:src="@drawable/triangle"/>
+    </FrameLayout>
+
+    </FrameLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id = "@+id/sea"
+        android:layout_width = "match_parent"
+        android:layout_height = "0dp"
+        android:layout_weight = "0.61"
+        android:background = "@color/sea">
+        <FrameLayout
+            android:id = "@+id/sunRef"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id = "@+id/centerSunRef"
+                android:layout_width = "125dp"
+                android:layout_height = "125dp"
+                android:layout_gravity = "center"
+                android:src = "@drawable/sun" />
+            <FrameLayout
+                android:id = "@+id/raysRef"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+                <ImageView
+                    android:id="@+id/ray1Ref"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="80dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:id="@+id/ray2Ref"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="80dp"
+                    android:rotation="90"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:id="@+id/ray3Ref"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="80dp"
+                    android:rotation="270"
+                    android:src="@drawable/triangle"/>
+                <ImageView
+                    android:id="@+id/ray4Ref"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="80dp"
+                    android:rotation="180"
+                    android:src="@drawable/triangle"/>
+                <ImageView
+                    android:id="@+id/ray5Ref"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="58dp"
+                    android:layout_marginLeft="58dp"
+                    android:rotation="45"
+                    android:src="@drawable/triangle"/>
+                <ImageView
+                    android:id="@+id/ray6Ref"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="58dp"
+                    android:layout_marginLeft="58dp"
+                    android:rotation="135"
+                    android:src="@drawable/triangle"/>
+                <ImageView
+                    android:id="@+id/ray7Ref"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="58dp"
+                    android:layout_marginRight="58dp"
+                    android:rotation="230"
+                    android:src="@drawable/triangle"/>
+                <ImageView
+                    android:id="@+id/ray8Ref"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="58dp"
+                    android:layout_marginRight="58dp"
+                    android:rotation="315"
+                    android:src="@drawable/triangle"/>
+            </FrameLayout>
+
+        </FrameLayout>
+
+    </FrameLayout>
+</LinearLayout>
